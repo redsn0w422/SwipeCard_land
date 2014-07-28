@@ -1,13 +1,76 @@
 <head>
-  <title>SwipeCard</title>
+	<title>SwipeCard</title>
 </head>
 
 <body>
-  {{> hello}}
-</body>
+	<div class="navbar navbar-inverse navbar-fixed-top" id="header">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="#top">SwipeCard</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
 
-<template name="hello">
-  <h1>Hello World!</h1>
-  {{greeting}}
-  <input type="button" value="Click" />
-</template>
+						<li><a href="#home">Home</a></li>
+
+						<li><a href="#customersHeader">Our Customers</a></li>
+						
+						<li><a href="#team">Team</a></li>
+
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="top">
+
+		<div class="row header-break-div"></div>
+
+		<div class="row section-div" id="home">
+			<div style="height:5vh;"></div>
+			<div class="col-lg-6 text-center">
+				<h1 style="font-size:5em;">SwipeCard</h1>
+				<br>
+				<h3 style="font-size:4em;opacity:0.75;">Scan it. Don't lose it.</h3>
+			</div>
+		</div>
+
+		<div style="width:50%; margin-left:25%; margin-right:25%;">
+		
+			<div class="row break-div text-center" id="customersHeader">
+				<h1>Our Customers</h1>
+			</div>
+
+			<div class="row section-div" id="schools">
+				<h1>Schools</h1>
+			</div>
+
+			<div class="row section-div" id="companies">
+				<h1>Companies</h1>
+			</div>
+
+			<div class="row section-div" id="colleges">
+				<h1>Colleges</h1>
+			</div>
+
+			<div class="row section-div" id="team">
+				<h1>Team</h1>
+			</div>
+
+			<div class="row section-div" id="contact">
+				<h1>Contact</h1>
+			</div>	
+		</div>	
+
+		<div class="push"></div>
+
+		<div class="footer">
+			<h1>OH NO THIS IS FOOTER</h1>
+		</div>
+	</div>
+</body>
