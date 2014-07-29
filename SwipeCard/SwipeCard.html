@@ -22,7 +22,7 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right top-8">
 					<li><a href="#home">Home</a></li>
 
 					<li><a href="#customersHeader">Our Customers</a></li>
@@ -64,53 +64,101 @@
 	</div> -->
 
 
-	<div class="container" id="top">
-		<div class="row section-div text-center" id="home">
-			<div style="height:5vh;"></div>
+	<div class="container-fluid" id="top">
+		<div class="row section-div text-center hidden-xs" id="home">
+			<div classs="hidden-xs" style="height:5vh;"></div>
 			<!-- <h1 style="font-size:5em;">SwipeCard</h1> -->
 			<!-- <br> -->
-			<div class="col-md-5" id="phone-col">
+			<!-- <div class="col-md-5" id="phone-col">
 				<img src="img/iphone-swipecard-no-shadow.png" alt="iphone swipe card" style="height:800px;">
-			</div>
+			</div> -->
 			<div clas="col-md-7" id="logo-col">
-				<img src="img/logo-white.png" alt="logo white" style="width:400px;">
+				<img src="img/logo.png" alt="logo white" style="width:400px;">
 				<h3 style="font-size:3.5em;">Scan it. Don't lose it.</h3>
 			</div>
-			<div class="col-xs-12 push">
+
+			<div class="col-xs-12 hidden-xs" style="height:300px;">
 			</div>
-			<div class="col-xs-12 footer">
-				<a href="#customersHeader"><i class="fa fa-arrow-circle-down fa-4x"></i></a>
+
+			<div class="col-xs-12 footer" style="background:none;">
+				<a href="#customersHeader"><i class="fa fa-angle-double-down fa-4x"></i></a>
+			</div>
+		</div>
+
+		<div class="row section-div text-center hidden-sm hidden-md hidden-lg" id="home">
+			<!-- <h1 style="font-size:5em;">SwipeCard</h1> -->
+			<!-- <br> -->
+			<!-- <div class="col-md-5" id="phone-col">
+				<img src="img/iphone-swipecard-no-shadow.png" alt="iphone swipe card" style="height:800px;">
+			</div> -->
+			<div clas="col-md-7" id="logo-col">
+				<img src="img/logo.png" alt="logo white" style="width:400px;">
+				<h3 style="font-size:3.5em;">Scan it. Don't lose it.</h3>
+			</div>
+
+			<div class="col-xs-12 footer" style="background:none;">
+				<a href="#customersHeader"><i class="fa fa-angle-double-down fa-4x"></i></a>
 			</div>
 		</div>
 
 
-		<div class="row break-div section-div text-center" id="customersHeader">
+		<div class="row text-center" id="customersHeader" style="height:15vh !important;padding-top:45px;">
 			<h1>Our Customers</h1>
 		</div>
 
-		<div class="row section-div" id="schools">
-			<h1>Schools</h1>
+		<div class="row section-div text-center white" id="institutions">
+			<div class="col-xs-12">
+				<h1>Institutions</h1>
+			</div>
+
+			<div class="col-md-6">
+				<h2>Institutions spend <span class="emphasis">$1.11</span> for an ID card.</h2>
+			</div>
+
+			<div class="col-md-6">
+				<h2>Plus around <span class="emphasis">$1500</span> for a photographer.</h2>
+			</div>
+
+			<div class="col-xs-12" style="height:100px;"></div>
+
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Totals up to about <span class="emphasis">$6000</span> a year. For ID cards.</h2>
+			</div>
+
+			<div class="col-xs-12 hidden-xs" style="height:200px;"></div>
+
+			<div class="col-xs-12" style="height:100px;">
+				<i class="fa fa-arrow-circle-down fa-5x"></i> 
+			</div>
+
+			<div class="col-md-12">
+				<h2>
+					<img src="img/logo-white.png" style="height:100px;"> 
+					<br>
+					only <span class="emphasis">$3000.</span>
+				</h2>
+			</div>
+
+			<div class="col-xs-12 hidden-xs" style="height:200px;">
+			</div>
+
+			<div class="col-xs-12 footer" style="background:none;">
+				<a href="#studentss"><i class="fa fa-angle-double-down fa-4x"></i></a>
+			</div>
 		</div>
 
-		<div class="row section-div" id="companies">
-			<h1>Companies</h1>
+		<div class="row" id="breakImg"></div>
+
+		<div class="row section-div text-center white" id="students">
+			<h1>Students</h1>
 		</div>
 
-		<div class="row section-div" id="colleges">
-			<h1>Colleges</h1>
-		</div>
-
-		<div class="row section-div" id="team">
+		<div class="row section-div text-center white" id="team">
 			<h1>Team</h1>
 		</div>
 
-		<div class="row section-div" id="contact">
-			<h1>Contact</h1>
-		</div>	
-
 		<div class="push"></div>
-
-		<div class="footer text-center">
+		<div class="footer">
 			<h1>OH NO THIS IS FOOTER</h1>
 		</div>
 	</div>

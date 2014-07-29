@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-  	background: url('img/stanford_library.jpg') no-repeat center center fixed; 
+  	background: url('img/iphone-in-hand-swipecard.png') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -17,15 +17,23 @@ html, body {
 }
 .footer, .push {
     height: 142px; /* .push must be the same height as .footer */
+    background:black;
 }
 .footer {
 	bottom: 0 !important; 
-	width: 100%;
+	width: 100% !important;
 	height: 60px;
 	color:white;
 }
 .black-box {
 	background-color:black;
+}
+.white {
+	color:white;
+}
+.emphasis {
+	font-weight:bold;
+	color:yellow;
 }
 .section-div {
 	min-height:100vh;
@@ -40,27 +48,38 @@ html, body {
 .top-8 {
 	top:8px;
 }
+#header {
+	background:rgba(0,0,0,.8);
+}
 #logo-col {
-	padding-top:350px;
+	padding-top:30vh;
 }
 #home {
-	color:white;
 	background-color:rgba(0,0,0,.6);
+	background: url('img/iphone-scene-swipecard.png') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #customersHeader {
 	background-color: rgba(0,0,0,0.7);
 	color:white;
 	font-size:6em;
-	height:15vh;
 }
-#schools {
-	background-color:rgba(46, 204, 113,0.4)
+#institutions {
+	background-color:rgba(0,0,0,0.7)
 }
-#companies {
-	background-color:rgba(127, 140, 141,0.4);
+#breakImg {
+	background: url('img/iphone-5c-swipecard.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height:25vh;
 }
-#colleges {
-	background-color:rgba(41, 128, 185,0.4);
+#students {
+	background-color:rgba(127, 140, 141,1);
 }
 #team {
 	background-color:rgba(255, 255, 255,0.4);
