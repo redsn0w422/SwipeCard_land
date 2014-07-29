@@ -1,9 +1,42 @@
 <head>
 	<title>SwipeCard</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 </head>
 
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top" id="header">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="header">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#top">
+					<img src="img/logo-white.png" style="height:30px;">
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+
+					<li><a href="#customersHeader">Our Customers</a></li>
+					
+					<li><a href="#team">Team</a></li>
+
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+<!-- 	<div class="navbar navbar-inverse navbar-fixed-top" id="header">
 		<div class="navbar-inner">
 			<div class="container">
 				<a class="btn btn-navbar">
@@ -11,9 +44,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#top">SwipeCard</a>
+				<a class="brand" href="#top">
+					<img src="img/logo-white.png" style="height:30px;">
+				</a>
 				<div class="nav-collapse collapse">
-					<ul class="nav">
+					<ul class="nav top-8">
 
 						<li><a href="#home">Home</a></li>
 
@@ -26,51 +61,60 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid" id="top">
+	</div> -->
 
-		<div class="row header-break-div"></div>
 
-		<div class="row section-div" id="home">
+	<div class="container" id="top">
+		<div class="row section-div text-center" id="home">
 			<div style="height:5vh;"></div>
-			<div class="col-lg-6 text-center">
-				<h1 style="font-size:5em;">SwipeCard</h1>
-				<br>
-				<h3 style="font-size:4em;opacity:0.75;">Scan it. Don't lose it.</h3>
+			<!-- <h1 style="font-size:5em;">SwipeCard</h1> -->
+			<!-- <br> -->
+			<div class="col-md-5" id="phone-col">
+				<img src="img/iphone-swipecard-no-shadow.png" alt="iphone swipe card" style="height:800px;">
+			</div>
+			<div clas="col-md-7" id="logo-col">
+				<img src="img/logo-white.png" alt="logo white" style="width:400px;">
+				<h3 style="font-size:3.5em;">Scan it. Don't lose it.</h3>
+			</div>
+			<div class="col-xs-12 push">
+			</div>
+			<div class="col-xs-12 footer">
+				<a href="#customersHeader"><i class="fa fa-arrow-circle-down fa-4x"></i></a>
 			</div>
 		</div>
 
-		<div style="width:50%; margin-left:25%; margin-right:25%;">
-		
-			<div class="row break-div text-center" id="customersHeader">
-				<h1>Our Customers</h1>
-			</div>
 
-			<div class="row section-div" id="schools">
-				<h1>Schools</h1>
-			</div>
+		<div class="row break-div section-div text-center" id="customersHeader">
+			<h1>Our Customers</h1>
+		</div>
 
-			<div class="row section-div" id="companies">
-				<h1>Companies</h1>
-			</div>
+		<div class="row section-div" id="schools">
+			<h1>Schools</h1>
+		</div>
 
-			<div class="row section-div" id="colleges">
-				<h1>Colleges</h1>
-			</div>
+		<div class="row section-div" id="companies">
+			<h1>Companies</h1>
+		</div>
 
-			<div class="row section-div" id="team">
-				<h1>Team</h1>
-			</div>
+		<div class="row section-div" id="colleges">
+			<h1>Colleges</h1>
+		</div>
 
-			<div class="row section-div" id="contact">
-				<h1>Contact</h1>
-			</div>	
+		<div class="row section-div" id="team">
+			<h1>Team</h1>
+		</div>
+
+		<div class="row section-div" id="contact">
+			<h1>Contact</h1>
 		</div>	
 
 		<div class="push"></div>
 
-		<div class="footer">
+		<div class="footer text-center">
 			<h1>OH NO THIS IS FOOTER</h1>
 		</div>
 	</div>
+
+	<script src="bootstrap.min.js"></script>
+	<script src="jquery.min.js"></script>
 </body>
