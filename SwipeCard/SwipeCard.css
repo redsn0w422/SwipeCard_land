@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-  	background: url('img/iphone-in-hand-swipecard.png') no-repeat center center fixed; 
+  	background: url('img/iphone-in-hand-swipecard.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,7 +20,7 @@ html, body {
     background:black;
 }
 .footer {
-	bottom: 0 !important; 
+	bottom: 0 !important;
 	width: 100% !important;
 	height: 60px;
 	color:white;
@@ -33,7 +33,7 @@ html, body {
 }
 .emphasis {
 	font-weight:bold;
-	color:yellow;
+	color:red;
 }
 .section-div {
 	min-height:100vh;
@@ -48,6 +48,13 @@ html, body {
 .top-8 {
 	top:8px;
 }
+.no-link a{
+	text-decoration:none;
+	color:black;
+}
+.fa-angle-double-down{
+	font-size:48px !important;
+}
 #header {
 	background:rgba(0,0,0,.8);
 }
@@ -56,18 +63,45 @@ html, body {
 }
 #home {
 	background-color:rgba(0,0,0,.6);
-	background: url('img/iphone-scene-swipecard.png') no-repeat center center; 
+	background: url('img/iphone-scene-swipecard.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+#phone{
+	 -webkit-transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -o-transform: rotate(270deg);
+   -ms-transform: rotate(270deg);
+   transform: rotate(270deg);
+   margin-bottom:-40px;
+   margin-top:-40px;
 }
 #customersHeader {
 	background-color: rgba(0,0,0,0.7);
 	color:white;
 	font-size:6em;
 }
-#institutions {
+.plan-title{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#student-pay{
+	font-size:200px;
+	color:red;
+	text-align:center;
+}
+#service{
+	background-color: rgba(255,255,255,0.75);
+	color:black;
+	font-size:6em;
+}
+.service-explanation{
+	padding-left:100px !important;
+	padding-right:100px !important;
+}
+#prices {
 	background-color:rgba(0,0,0,0.7)
 }
 #breakImg {
@@ -82,7 +116,7 @@ html, body {
 	background-color:rgba(127, 140, 141,1);
 }
 #team {
-	background-color:rgba(255, 255, 255,0.4);
+	background-color:rgba(52, 152, 219, 0.7);
 }
 #contact {
 	background-color: black;
@@ -90,4 +124,7 @@ html, body {
 }
 .color-white {
 	color:white;
+}
+.descript-img{
+	height:250px;
 }

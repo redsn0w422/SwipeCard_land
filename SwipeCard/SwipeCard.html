@@ -25,11 +25,11 @@
 				<ul class="nav navbar-nav navbar-right top-8">
 					<li><a href="#home">Home</a></li>
 
-					<li><a href="#customersHeader">Our Customers</a></li>
-					
-					<li><a href="#team">Team</a></li>
+					<li><a href="#service">Service</a></li>
 
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#prices">Prices</a></li>
+
+					<li><a href="#team">Team</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
@@ -53,7 +53,7 @@
 						<li><a href="#home">Home</a></li>
 
 						<li><a href="#customersHeader">Our Customers</a></li>
-						
+
 						<li><a href="#team">Team</a></li>
 
 						<li><a href="#contact">Contact</a></li>
@@ -64,7 +64,7 @@
 	</div> -->
 
 
-	<div class="container-fluid" id="top">
+	<div class="container" id="top">
 		<div class="row section-div text-center hidden-xs" id="home">
 			<div classs="hidden-xs" style="height:5vh;"></div>
 			<!-- <h1 style="font-size:5em;">SwipeCard</h1> -->
@@ -80,11 +80,11 @@
 			<div class="col-xs-12 hidden-xs" style="height:300px;">
 			</div>
 
-			<div class="col-xs-12 footer" style="background:none;">
-				<a href="#customersHeader"><i class="fa fa-angle-double-down fa-4x"></i></a>
+			<div class="col-xs-12 footer no-link" style="background:none;">
+				<a href="#service"><i class="fa fa-angle-double-down"></i></a>
 			</div>
 		</div>
-
+<!-- First slide - Home-->
 		<div class="row section-div text-center hidden-sm hidden-md hidden-lg" id="home">
 			<!-- <h1 style="font-size:5em;">SwipeCard</h1> -->
 			<!-- <br> -->
@@ -96,44 +96,107 @@
 				<h3 style="font-size:3.5em;">Scan it. Don't lose it.</h3>
 			</div>
 
-			<div class="col-xs-12 footer" style="background:none;">
-				<a href="#customersHeader"><i class="fa fa-angle-double-down fa-4x"></i></a>
+			<div class="col-xs-12 footer no-link" style="background:none;">
+				<a href="#service"><i class="fa fa-angle-double-down"></i></a>
+			</div>
+		</div>
+
+<!-- Second slide - Service-->
+	<div class="row section-div text-center" id="service" style="padding-top:90px;">
+		<div class="col-xs-12" style="padding-bottom:200px;">
+			<h1 style="font-size:1em;">Services We Provide</h1>
+		</div>
+		<div class="col-md-4 service-explanation">
+			<div style="background-color:black; height:200px; width:200px;"></div>
+			<h1>Join</h1>
+			<h3>Create an account or enter in your school's register code. It's a simple registration process.</h3>
+		</div>
+		<div class="col-md-4 service-explanation">
+			<img src="img/login-icon.jpeg" style="height:220px; border-radius:150px;">
+			<h1>Customize</h1>
+			<h3>Upload a picture of yourself and design your ID however you like.</h3>
+		</div>
+		<div class="col-md-4 service-explanation">
+			<img src="img/iphone-swipecard-no-shadow.png" style="height:300px;" id="phone">
+			<h1>Scan</h1>
+			<h3>Your ID is now ready. You can now use your digital ID to buy, rent, and discount!</h3>
+		</div>
+
+		<div class="col-xs-12 footer no-link" style="background:none;">
+			<a href="#benefits"><i class="fa fa-angle-double-down"></i></a>
+		</div>
+
+	</div>
+
+<!-- Third Slide - Benefits -->
+
+		<div class="row section-div text-center white" id="prices">
+
+				<div class="col-md-6" style="border-right:3px groove #FFFFFF">
+					<h1 class="plan-title">Institution Plan</h1>
+						<h3 class="col-md-12" style="padding-bottom:50px;">By sticking to physical ID cards, institutions are spending:</h3>
+						<div class="col-md-6" style="padding-left:100px">
+							<img src="img/id-card.png" style="height:200px;">
+							<h3>
+								<span class="emphasis">$1.11</span> for each ID card.
+							</h3>
+						</div>
+						<div class="col-md-6" style="padding-right:100px">
+							<img src="img/photographer.jpg" style="height:200px; border-radius:15px; border: 3px solid #FFFFFF;">
+							<h3>
+								<span class="emphasis">$1,500</span> for a photographer.
+							</h3>
+						</div>
+						<div class="col-md-12" style="height:50px"></div>
+						<h1 class="col-md-12">
+							Amounting to over <span class="emphasis">$5940 every year</span>
+						</h1>
+						<div class="col-xs-12" style="height:100px; padding-top:50px;">
+							<i class="fa fa-arrow-circle-down fa-5x"></i>
+						</div>
+
+						<div class="col-md-12" style="padding-top:40px;">
+							<h2>
+								<img src="img/logo-white.png" style="height:100px;">
+								<br>
+								only <span class="emphasis" style="color:yellow">$3000.</span>
+							</h2>
+						</div>
+				</div>
+
+				<div class="col-md-6">
+					<h1 class="plan-title">Student Plan</h1>
+						<h3>Students with physical ID's may have to pay</h3>
+						<span id="student-pay" style="padding:100px;">$5</span>
+						<h3>
+							 or more to replace an ID card.
+						</h3>
+						<div class="col-xs-12" style="height:100px; padding-top:50px; margin-bottom:60px">
+							<i class="fa fa-arrow-circle-down fa-5x"></i>
+						</div>
+							<h2>
+								<img src="img/logo-white.png" style="height:100px;">
+								<br>
+								only <span class="emphasis" style="color:yellow">$0.99.</span>
+							</h2>
+				</div>
+
+
+
+
+			<div class="col-xs-12 footer" style="background:none; margin-top:30px">
+				<a href="#team"><i class="fa fa-angle-double-down fa-4x"></i></a>
 			</div>
 		</div>
 
 
-		<div class="row text-center" id="customersHeader" style="height:15vh !important;padding-top:45px;">
-			<h1>Our Customers</h1>
-		</div>
-
-		<div class="row section-div text-center white" id="institutions">
-			<div class="col-xs-12">
-				<h1>Institutions</h1>
-			</div>
-
-			<div class="col-md-6">
-				<h2>Institutions spend <span class="emphasis">$1.11</span> for an ID card.</h2>
-			</div>
-
-			<div class="col-md-6">
-				<h2>Plus around <span class="emphasis">$1500</span> for a photographer.</h2>
-			</div>
-
-			<div class="col-xs-12" style="height:100px;"></div>
-
-			<div class="col-md-6 col-md-offset-3">
-				<h2>Totals up to about <span class="emphasis">$6000</span> a year. For ID cards.</h2>
-			</div>
-
-			<div class="col-xs-12 hidden-xs" style="height:200px;"></div>
-
-			<div class="col-xs-12" style="height:100px;">
-				<i class="fa fa-arrow-circle-down fa-5x"></i> 
+<!--			<div class="col-xs-12" style="height:100px;">
+				<i class="fa fa-arrow-circle-down fa-5x"></i>
 			</div>
 
 			<div class="col-md-12">
 				<h2>
-					<img src="img/logo-white.png" style="height:100px;"> 
+					<img src="img/logo-white.png" style="height:100px;">
 					<br>
 					only <span class="emphasis">$3000.</span>
 				</h2>
@@ -142,21 +205,19 @@
 			<div class="col-xs-12 hidden-xs" style="height:200px;">
 			</div>
 
-			<div class="col-xs-12 footer" style="background:none;">
-				<a href="#studentss"><i class="fa fa-angle-double-down fa-4x"></i></a>
-			</div>
+
 		</div>
 
 		<div class="row" id="breakImg"></div>
+-->
 
-		<div class="row section-div text-center white" id="students">
-			<h1>Students</h1>
-		</div>
 
+<!-- Fifth Slide - Meet the Team -->
 		<div class="row section-div text-center white" id="team">
 			<h1>Team</h1>
 		</div>
 
+<!-- Footer -->
 		<div class="push"></div>
 		<div class="footer">
 			<h1>OH NO THIS IS FOOTER</h1>
