@@ -18,7 +18,11 @@
 		<string>Helvetica</string>
 	</array>
 	<key>length</key>
+<<<<<<< HEAD
 	<integer>19885398</integer>
+=======
+	<integer>18403839</integer>
+>>>>>>> FETCH_HEAD
 	<key>version</key>
 	<integer>37</integer>
 </dict>
