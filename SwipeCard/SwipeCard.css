@@ -96,14 +96,17 @@ html, body {
 	text-align:center;
 }
 #about{
-	background-color: rgba(255,255,255,0.65);
+	background-color:rgba(46, 204, 113,.65);
 	color:black;
 	font-size:6em;
 }
-/*.service-explanation{
-	padding-left:100px !important;
-	padding-right:100px !important;
-}*/
+.service-explanation{
+	border:3px groove black;
+	height:400px;
+}
+.about {
+/*	background-color:rgba(46, 204, 113,.3);
+*/}
 #plans {
 	background-color:rgba(0,0,0,0.7)
 }
