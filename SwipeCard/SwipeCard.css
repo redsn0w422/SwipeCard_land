@@ -22,19 +22,22 @@ html, body {
 }
 .footer, .push {
     height: 142px; /* .push must be the same height as .footer */
-    background:black;
 }
 .footer {
 	bottom: 0 !important;
 	width: 100% !important;
 	height: 60px;
 	color:white;
+	background:black;
 }
 .black-box {
 	background-color:black;
 }
 .white {
-	color:white;
+	color:white !important;
+}
+.white-link a{
+	color:white !important;
 }
 .emphasis {
 	font-weight:bold;
@@ -96,19 +99,18 @@ html, body {
 	text-align:center;
 }
 #about{
-	background-color:rgba(46, 204, 113,.65);
+	background-color:rgba(236, 240, 241,.95);
 	color:black;
 	font-size:6em;
 }
 .service-explanation{
-	border:3px groove black;
-	height:400px;
+	min-height:600px;
 }
 .about {
 /*	background-color:rgba(46, 204, 113,.3);
 */}
 #plans {
-	background-color:rgba(0,0,0,0.7)
+	background-color:rgba(0,0,0,0.8)
 }
 #breakImg {
 	background: url('img/iphone-5c-swipecard.png') no-repeat center center;
@@ -122,7 +124,8 @@ html, body {
 	background-color:rgba(127, 140, 141,1);
 }
 #team {
-	background-color:rgba(52, 152, 219, 0.7);
+	background-color:rgba(255,255,255,.95);
+	min-height:60vh !important;
 }
 #contact {
 	background-color: black;
